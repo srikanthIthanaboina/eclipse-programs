@@ -1,0 +1,14 @@
+package com.leetcode;
+
+public class secondPrgm {
+     static int[] L1 = {2,4,3};
+     static int[] L2 = {5,6,4};
+     public static void main(String[] args) {
+    	 for(int i=L1.length;i>=0;i--) {
+    		 int L3[] = new int[3];
+    		 L3[i++] = L1[i];
+    		 System.out.print(L3[i]);
+    	 }
+     }
+     
+}

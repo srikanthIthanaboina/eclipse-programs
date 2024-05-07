@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+
+div {
+background-color:powderblue;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.Name {display: inline-block; width:47%;
+}
+
+.Name .cf-medium {width:97%;}
+
+</style>
+</head>
+<body  display: flex;
+  justify-content: center; >
+<div class="Name" >
+<form method="post" action="Register">
+USER NAME       <input type="text" name="name" ><br><br>
+USER EMAIL      <input type="email" name="email" ><br><br>
+USER PASSWORD   <input type="password" name="pwd" ><br><br>
+USER P.NUMBER<input type="phonenumber" name="phonenumber" ><br><br>
+<input type="submit" value="Register">
+</form>
+</div>
+
+<div class="Name" >
+<form method="get" action="Register">
+USER EMAIL       <input type="email" name="email" ><br><br>
+USER PASSWORD   <input type="password" name="pwd" ><br><br>
+<input type="submit" value="LogIn"><br><br>
+</form>
+</div>
+</body>
+</html>

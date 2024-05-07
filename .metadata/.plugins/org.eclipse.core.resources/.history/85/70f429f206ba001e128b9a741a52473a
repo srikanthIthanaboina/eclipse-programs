@@ -1,0 +1,14 @@
+package com.leetcode;
+
+public class firstPrgm {
+    static int[] nums = {3,3};
+    public static void main(String[] args) {
+    	for(int i=0;i<nums.length;i++) {
+    		if(i<nums.length-1) {
+    		if(nums[i]+nums[i+1]==6) {
+    			System.out.print("["+i+","+(i+1)+"]");
+    		}
+    		}
+    	}
+    }
+}

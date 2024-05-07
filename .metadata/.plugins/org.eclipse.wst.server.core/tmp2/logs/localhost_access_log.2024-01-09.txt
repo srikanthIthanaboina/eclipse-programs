@@ -1,0 +1,11 @@
+127.0.0.1 - - [09/Jan/2024:09:17:20 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [09/Jan/2024:09:17:21 +0530] "GET /PostGetproject/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Jan/2024:09:17:21 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [09/Jan/2024:09:17:34 +0530] "GET /PostGetproject/book1?name=abc&email=kkkk%40gmail.com&phonenumber=123456 HTTP/1.1" 200 624
+0:0:0:0:0:0:0:1 - - [09/Jan/2024:12:17:00 +0530] "GET /PostGetproject/index.html HTTP/1.1" 200 411
+0:0:0:0:0:0:0:1 - - [09/Jan/2024:12:17:00 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [09/Jan/2024:12:17:09 +0530] "GET /PostGetproject/book1?name=srikanth&email=kkkk%40gmail.com&phonenumber=123456 HTTP/1.1" 200 665
+127.0.0.1 - - [09/Jan/2024:13:53:53 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [09/Jan/2024:13:53:53 +0530] "GET /PostGetproject/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Jan/2024:13:53:54 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [09/Jan/2024:13:54:10 +0530] "GET /PostGetproject/book1?name=sai&email=sai%40gmail.com&phonenumber=123 HTTP/1.1" 200 690

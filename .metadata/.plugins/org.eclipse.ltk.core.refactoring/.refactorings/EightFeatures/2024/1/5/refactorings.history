@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ashokit.ZoneId&apos; to &apos;ZoneIdExample&apos;&#x0D;&#x0A;- Original project: &apos;EightFeatures&apos;&#x0D;&#x0A;- Original element: &apos;com.ashokit.ZoneId&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ashokit.ZoneIdExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ZoneId&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ashokit{ZoneId.java[ZoneId" matchStrategy="1" name="ZoneIdExample" qualified="false" references="true" similarDeclarations="false" stamp="1706710307011" textual="false" version="1.0"/>
+</session>
